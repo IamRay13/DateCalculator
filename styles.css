@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em; /* Reduced to half */
+    color: #4A90E2;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 2px solid #4A90E2;
+}
+
+h2 {
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em; /* Increased for emphasis */
+    color: #4A90E2;
+    text-align: center;
+    font-style: bold;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.date-input, .buttons {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #555;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#calendar {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#time {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
